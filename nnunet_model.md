@@ -8,7 +8,7 @@
 2. Create a new file in the `configs` folder, for example, `segmentation_neuroblastoma.py`, following the structure of `segmentation_spleen.py`.
 ### Important: These files will be created, but they won't be used during inference since we will utilize the Nn-Unet inference pipeline.
 
-
+.
 ### Step 2: Adding a New Inferer File
 
 1. Create a new file in the `infers` folder, for example, `segmentation_neuroblastoma.py`, following the structure of `segmentation_spleen.py`.
