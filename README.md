@@ -66,8 +66,10 @@ If you are facing any issues with the installation or setup, please refer to the
 ## MONAI
 MONAI is licensed under the Apache 2.0 License. See [LICENSE](https://github.com/Project-MONAI/MONAI/blob/dev/LICENSE).
 ## Troubleshooting
--If you encounter the error ImportError: DLL load failed while importing _rust: The specified procedure could not be found, a potential solution is to run the command pip uninstall cryptography.
--If you encounter the error list index out of range just back to home page and and then back to MONAI Label again .
+- If you encounter the error ImportError: DLL load failed while importing _rust: The specified procedure could not be found, a potential solution is to run the command pip uninstall cryptography.
+
+- If you encounter the error list index out of range just back to home page and and then back to MONAI Label again .
+
 ## OHIF
 OHIF is licensed under the MIT License. See [LICENSE](https://github.com/OHIF/Viewers/blob/master/LICENSE).
 
