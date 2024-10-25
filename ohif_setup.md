@@ -43,3 +43,33 @@ For more flexibilty and control, you can setup OHIF standalone and connect it to
     yarn run dev:orthanc
     ```
 3. Open a web browser and navigate to `http://localhost:3000/` to access the OHIF app.
+
+# troubleshooting
+---
+
+### Resolving Yarn Installation Issues on Windows
+
+If you encounter errors when installing Yarn on Windows, you may need to adjust the PowerShell execution policy to allow script execution. Follow these steps:
+
+1. **Set the PowerShell Execution Policy**  
+   Open PowerShell and run the following command to enable the execution of remote scripts:
+
+   ```powershell
+   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+   ```
+
+2. **Verify the Execution Policy**  
+   Confirm that the policy was successfully updated by running:
+
+   ```powershell
+   Get-ExecutionPolicy -Scope CurrentUser
+   ```
+
+   The output should display `RemoteSigned`, indicating that the policy change was successful.
+
+3. **Retry Yarn Installation**  
+   Run the Yarn installation command again:
+
+   ```bash
+   yarn install
+   ```
