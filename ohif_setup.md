@@ -6,6 +6,7 @@ For more flexibilty and control, you can setup OHIF standalone and connect it to
 ## Prerequisites
 - [Setup Orthanc and MONAILabel](README.md)
 - [Downloaded OHIF source code, met its requirements, and installed its dependencies](https://github.com/OHIF/Viewers?tab=readme-ov-file#requirements)
+- make sure the version of OHIF compatible with MONAILABEL. (so download old version of OHIF like one year ago)
 
 ## Step 1: Install the MONAILabel OHIF Plugin
 1. Open a command prompt or terminal and clone the MONAILabel OHIF Plugin repository:
